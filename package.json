@@ -1,0 +1,28 @@
+{
+  "name": "taller-react-typescript",
+  "version": "1.0.0",
+  "description": "Taller de React con TypeScript y Node.js - 15 ejercicios completos",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd taller/backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd taller/backend && npm run dev\" \"cd taller/frontend && npm start\"",
+    "build": "cd taller/backend && npm run build",
+    "start": "concurrently \"cd taller/backend && npm start\" \"cd taller/frontend && npm start\"",
+    "setup": "npm run install-all && npm run build",
+    "quick-start": "echo '🚀 Ejecutando proyecto...' && npm run start"
+  },
+  "keywords": ["react", "typescript", "nodejs", "express", "taller", "ejercicios", "colombia"],
+  "author": "Estudiante",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/taller-react-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/taller-react-typescript/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/taller-react-typescript#readme"
+}
