@@ -1,6 +1,13 @@
 # 🚀 Taller de React + TypeScript + Node.js
+## ESTUDIANTES
+Tatiana Montenegro
+Yuliana paez
+Brandon bernal
+javier montero
+estefania malagon
+Cristian Barrera
 
-## 📋 Descripción
+## Descripción
 Proyecto completo con 15 ejercicios de React, TypeScript y Node.js que incluye:
 - **Frontend:** React con TypeScript, Context API, Custom Hooks, Axios
 - **Backend:** Node.js con Express, JWT, CRUD completo
@@ -19,7 +26,7 @@ taller/
 - **Backend:** Node.js, Express, JWT, bcryptjs, CORS
 - **Herramientas:** npm, nodemon, ts-node
 
-## 📦 Instalación
+##  Instalación
 
 ### 1. Clonar el repositorio
 ```bash
@@ -49,14 +56,14 @@ cd taller/backend
 npm run build
 node dist/index.js
 ```
-**✅ Debería mostrar:** `Server is running on port 4000`
+**Debería mostrar:** `Server is running on port 4000`
 
 #### Terminal 2 - Frontend
 ```bash
 cd taller/frontend
 npm start
 ```
-**✅ Debería abrir:** `http://localhost:3000`
+**Debería abrir:** `http://localhost:3000`
 
 ### Opción 2: Scripts automatizados
 
@@ -105,109 +112,5 @@ npm run dev
 | 14 | CRUD System | CRUD completo de estudiantes |
 | 15 | Error Handler | Manejador global de errores |
 
-## 🌟 Características Destacadas
 
-### Frontend
-- ✅ **TypeScript completo** con tipado estricto
-- ✅ **Context API** para estado global
-- ✅ **Custom Hooks** reutilizables
-- ✅ **Axios** configurado con interceptores
-- ✅ **Manejo de errores** global
-- ✅ **Interfaz en español** con precios en pesos colombianos
 
-### Backend
-- ✅ **API REST** completa con Express
-- ✅ **JWT Authentication** con bcryptjs
-- ✅ **CORS** configurado
-- ✅ **CRUD** para usuarios, productos y estudiantes
-- ✅ **Manejo de errores** centralizado
-- ✅ **Datos en español** con precios colombianos
-
-## 🐛 Solución de Problemas
-
-### Error: Puerto 3000 ocupado
-```bash
-lsof -ti:3000 | xargs kill -9
-cd taller/frontend
-npm start
-```
-
-### Error: Puerto 4000 ocupado
-```bash
-lsof -ti:4000 | xargs kill -9
-cd taller/backend
-node dist/index.js
-```
-
-### Error: Módulos no encontrados
-```bash
-# Backend
-cd taller/backend
-rm -rf node_modules package-lock.json
-npm install
-npm run build
-
-# Frontend
-cd taller/frontend
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Error: 403 en Tabla de Usuarios
-1. Verifica que el backend esté en puerto 4000
-2. Verifica que el frontend tenga proxy a `http://localhost:4000`
-3. Haz hard reload en el navegador (Cmd+Shift+R)
-
-## 📁 Archivos Importantes
-
-### Configuración
-- `taller/frontend/package.json` - Dependencias del frontend
-- `taller/backend/package.json` - Dependencias del backend
-- `taller/frontend/src/lib/api.ts` - Configuración de Axios
-
-### Componentes Principales
-- `taller/frontend/src/App.tsx` - Aplicación principal
-- `taller/frontend/src/components/` - Todos los componentes
-- `taller/backend/src/routes/` - Rutas de la API
-
-### Ejercicios Individuales
-- `taller/ejercicios/01-counter/` - Código del ejercicio 1
-- `taller/ejercicios/02-login-form/` - Código del ejercicio 2
-- ... (y así sucesivamente)
-
-## 🎯 Uso en Clase
-
-### Para Estudiantes
-1. Clona el repositorio
-2. Sigue las instrucciones de instalación
-3. Ejecuta ambos servicios
-4. Navega por las 15 pestañas
-5. Revisa el código en `taller/ejercicios/`
-
-### Para Profesores
-- Cada ejercicio está documentado con comentarios
-- El código está organizado por carpetas
-- Incluye ejemplos de TypeScript, React Hooks, Context API
-- Backend completo con autenticación JWT
-
-## 📞 Soporte
-
-Si tienes problemas:
-1. Verifica que ambos puertos (3000 y 4000) estén libres
-2. Revisa que las dependencias estén instaladas
-3. Asegúrate de estar en las carpetas correctas
-4. Revisa los logs en la consola
-
-## 🏆 Logros del Proyecto
-
-- ✅ **15 ejercicios** completos y funcionales
-- ✅ **TypeScript** en todo el proyecto
-- ✅ **API REST** completa
-- ✅ **Autenticación JWT** implementada
-- ✅ **Interfaz en español** con contenido colombiano
-- ✅ **Código limpio** y bien documentado
-- ✅ **Estructura profesional** lista para producción
-
----
-
-**¡Proyecto listo para presentar! 🎉**
